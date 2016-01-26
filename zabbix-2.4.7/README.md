@@ -5,7 +5,7 @@ Zatree for zabbix 2.4.7 安装
 1：更新说明
 ```
     a.界面与Zabbix风格一致
-    b.用自身的API去实现数据读取，去掉了之前的API
+    b.优化API，加速图片显示，性能大幅度提高
 ```
 
 2.安装zatree

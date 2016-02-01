@@ -13,7 +13,7 @@ Zatree for zabbix 2.4.7 安装
 #ZBX_PATH=/usr/share/zabbix
 #cp -r ${ZBX_PATH} /usr/share/zabbix-bak
 #cd ${ZBX_PATH}
-#wget --no-check-certificate https://raw.github.com/itnihao/zatree/master/zatree-2.4.7/install.sh
+#wget --no-check-certificate https://raw.githubusercontent.com/itnihao/zatree/master/zabbix-2.4.7/install.sh
 #sh install.sh
 ```
 

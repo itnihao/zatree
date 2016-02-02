@@ -5,16 +5,17 @@ Zatree for zabbix 2.4.7 安装
 1：更新说明
 ```
     a.界面与Zabbix风格一致
-    b.用自身的API去实现数据读取，去掉了之前的API
+    b.优化API，加速图片显示，性能大幅度提高
 ```
 
 2.安装zatree
+前提，您的Zabbix WEB版本必须为2.4.7
 ```
-#ZBX_PATH=/usr/share/zabbix
+#ZBX_PATH=/usr/share/zabbix  #您的Zabbix WEB目录
 #cp -r ${ZBX_PATH} /usr/share/zabbix-bak
 #cd ${ZBX_PATH}
-#wget --no-check-certificate https://raw.github.com/spide4k/zatree/master/zatree-2.4.7/install_zatree.sh
-#sh install_zatree.sh
+#wget --no-check-certificate https://raw.githubusercontent.com/itnihao/zatree/master/zabbix-2.4.7/install.sh
+#sh install.sh
 ```
 
 3.访问：

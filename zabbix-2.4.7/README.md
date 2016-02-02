@@ -21,7 +21,8 @@ Zatree for zabbix 2.4.7 安装
 3.访问：
 http://ZBX_URL 和你的之前ZABBIX WEB访问地址相同
 
-
+4.截图
+![image](https://raw.githubusercontent.com/itnihao/zatree/master/zabbix-2.4.7/screenshots/ztree2.4.7.png)
 
 
 定制开发zatree或zabbix

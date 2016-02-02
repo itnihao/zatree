@@ -9,8 +9,9 @@ Zatree for zabbix 2.4.7 安装
 ```
 
 2.安装zatree
+前提，您的Zabbix WEB版本必须为2.4.7
 ```
-#ZBX_PATH=/usr/share/zabbix
+#ZBX_PATH=/usr/share/zabbix  #您的Zabbix WEB目录
 #cp -r ${ZBX_PATH} /usr/share/zabbix-bak
 #cd ${ZBX_PATH}
 #wget --no-check-certificate https://raw.githubusercontent.com/itnihao/zatree/master/zabbix-2.4.7/install.sh

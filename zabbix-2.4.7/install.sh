@@ -4,4 +4,5 @@
 wget https://raw.githubusercontent.com/itnihao/zatree/master/zabbix-2.4.7/zatree-2.4.7.patch
 wget https://raw.githubusercontent.com/itnihao/zatree/master/zabbix-2.4.7/zatree.tar.gz
 tar xvf zatree.tar.gz
+yum install -y patch
 patch  -Np0 <zatree-2.4.7.patch

@@ -16,6 +16,7 @@ Zatree for zabbix 2.4.7 安装
 #cd ${ZBX_PATH}
 #wget --no-check-certificate https://raw.githubusercontent.com/itnihao/zatree/master/zabbix-2.4.7/install.sh
 #sh install.sh
+#清除浏览器cookie
 ```
 
 3.访问：
